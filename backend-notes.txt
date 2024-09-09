@@ -1,0 +1,19 @@
+backend/
+├── controllers/       # Controller files for handling request logic
+│   ├── productController.js
+│   └── userController.js
+├── middleware/        # Middleware for authentication and authorization
+│   ├── auth.js
+│   └── admin.js
+├── models/            # Mongoose models (schemas)
+│   ├── Product.js
+│   └── User.js
+├── routes/            # Express routes
+│   ├── auth.js
+│   ├── dashboard.js
+│   └── products.js
+├── config/            # Configuration files
+│   └── db.js          # MongoDB connection setup
+├── .env               # Environment variables (database credentials, secrets)
+├── server.js          # Entry point for the backend
+└── package.json       # Backend dependencies and scripts

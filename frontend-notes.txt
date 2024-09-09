@@ -1,0 +1,19 @@
+frontend/
+├── public/                # Static files like index.html
+│   └── index.html
+├── src/
+│   ├── components/        # React components
+│   │   ├── Navbar.js
+│   │   ├── ProductList.js
+│   │   ├── Dashboard.js
+│   │   └── AdminDashboard.js
+│   ├── context/           # Context for global state management
+│   │   ├── AuthContext.js
+│   │   └── WishlistContext.js
+│   ├── pages/             # Pages in the app
+│   │   ├── Home.js
+│   │   ├── Login.js
+│   │   └── Signup.js
+│   ├── App.js             # Main app component
+│   └── index.js           # Entry point for the frontend
+└── package.json           # Frontend dependencies and scripts
